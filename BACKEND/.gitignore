@@ -1,0 +1,45 @@
+.env
+# Django settings
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+
+# Log files
+*.log
+
+# Media and Static files
+static/
+media/
+
+# Database files
+*.sql
+*.db
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+.directory
+
+# Coverage files
+.coverage
+*.coverage
+
+# Testing files
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+
+# Docker files (if used)
+docker-compose.override.yml
+.docker/
